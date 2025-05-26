@@ -40,8 +40,8 @@ Por tanto, los datos obtenidos **reflejan fidedignamente el comportamiento real 
 | Docker  | 0.04           | 69.11           |
 
 > 📸 **Capturas:**  
-![Captura VM](capturaConsumoVM.png)
-![Captura Docker](capturaConsumoDocker.png)
+![Captura VM](vm_metrics/capturaConsumoVM.png)
+![Captura Docker](docker_metrics/capturaConsumoDocker.png)
 
 - **Observación:**
 - **CPU:** La VM consume notablemente más CPU, posiblemente debido a la virtualización completa del hardware.
@@ -57,8 +57,8 @@ Por tanto, los datos obtenidos **reflejan fidedignamente el comportamiento real 
 | Docker  | 1.1 GB                 |
 
 > 📸 **Capturas:**  
-> ![Captura espacio VM](capturaEspacioOcupadoVM.png)  
-> ![Captura espacio Docker](capturaEspacioOcupadoDocker.png)
+> ![Captura espacio VM](vm_metrics/capturaEspacioOcupadoVM.png)  
+> ![Captura espacio Docker](docker_metrics/capturaEspacioOcupadoDocker.png)
 
 - **Observación:** La instalación base de una VM ocupa significativamente más espacio al incluir un sistema completo. Docker utiliza imágenes mínimas, más ligeras y especializadas.
 
@@ -72,8 +72,8 @@ Por tanto, los datos obtenidos **reflejan fidedignamente el comportamiento real 
 | Docker  | 3.973                   |
 
 > 📸 **Capturas:**  
-> ![Captura tiempo VM](capturaTiempoEjecuciónVM.png)  
-> ![Captura tiempo Docker](capturaTiempoEjecuciónDocker.png)
+> ![Captura tiempo VM](vm_metrics/capturaTiempoEjecuciónVM.png)  
+> ![Captura tiempo Docker](docker_metrics/capturaTiempoEjecuciónDocker.png)
 
 - **Observación:** Aunque Docker suele ser más rápido arrancando contenedores, el entorno y herramientas como JupyterLab añadieron latencia en este caso. La VM lanza directamente el script desde un entorno ya preparado.
 
@@ -82,10 +82,10 @@ Por tanto, los datos obtenidos **reflejan fidedignamente el comportamiento real 
 ### 📈 Visualización Gráfica
 
 #### Tabla comparativa
-![Tabla comparativa](tabla_comparativa_final.png)
+![Tabla comparativa](images/tabla_comparativa_final.png)
 
 #### Gráfico comparativo
-![Gráfico comparativo](grafico_comparativo_final.png)
+![Gráfico comparativo](images/grafico_comparativo_final.png)
 
 ---
 
