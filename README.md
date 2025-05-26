@@ -25,30 +25,34 @@ El programa utilizado es un simulador de ruleta (`ruleta_casino.py`) que ejecuta
 ```
 PROYECTO_TIC/
 └── Estructura_Proyecto/
-└── vm_vs_docker_benchmark/
-├── notebooks/
-│ └── vm_vs_docker_comparison.ipynb
-├── results/
-│ ├── analisis_resultados.md
-│ ├── capturaConsumoDocker.png
-│ ├── capturaConsumoVM.png
-│ ├── capturaEjecuciónDocker.png
-│ ├── capturaEjecuciónVM.png
-│ ├── grafico_comparativo_final.png
-│ ├── tabla_comparativa_final.png
-│ ├── capturaEspacioOcupadoVM.png
-│ ├── capturaEspacioOcupadoDocker.png
-│ ├── capturaTiempoEjecuciónVM.png
-│ └── capturaTiempoEjecuciónDocker.png
-├── scripts/
-│ ├── Dockerfile
-│ ├── docker_setup.sh
-│ ├── ruleta_casino.py
-│ ├── vm_setup.sh
-│ └── arranque_test.py
-├── .gitignore
-├── install.ipynb
-└── README.md
+    └── vm_vs_docker_benchmark/
+        ├── notebooks/
+        │   └── vm_vs_docker_comparison.ipynb
+        ├── results/
+        │   ├── docker_metrics/
+        │   │   ├── capturaConsumoDocker.png
+        │   │   ├── capturaEjecuciónDocker.png
+        │   │   ├── capturaEspacioOcupadoDocker.png
+        │   │   └── capturaTiempoEjecuciónDocker.png
+        │   ├── images/
+        │   │   ├── grafico_comparativo_final.png
+        │   │   └── tabla_comparativa_final.png
+        │   ├── vm_metrics/
+        │   │   ├── capturaConsumoVM.png
+        │   │   ├── capturaEjecuciónVM.png
+        │   │   ├── capturaEspacioOcupadoVM.png
+        │   │   └── capturaTiempoEjecuciónVM.png
+        │   └── analisis_resultados.md
+        ├── scripts/
+        │   ├── arranque_test.py
+        │   ├── docker_setup.sh
+        │   ├── Dockerfile
+        │   ├── ruleta_casino.py
+        │   └── vm_setup.sh
+        ├── .gitignore
+        ├── install.ipynb
+        └── README.md
+
 ```
 
 ---
